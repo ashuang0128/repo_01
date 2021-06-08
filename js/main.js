@@ -13,7 +13,7 @@ $(function() {
 	'use strict';
 
 	$(".loader").delay(700).fadeOut("slow");
-  $("#-overlayer").delay(700).fadeOut("slow");	
+  $("#untree_co--overlayer").delay(700).fadeOut("slow");	
 
 
 
@@ -64,7 +64,7 @@ $(function() {
 		setTimeout(function() {
 			
 			var counter = 0;
-      $('.-site-mobile-menu .has-children').each(function(){
+      $('.untree_co--site-mobile-menu .has-children').each(function(){
         var $this = $(this);
         
         $this.prepend('<span class="arrow-collapse collapsed">');
@@ -122,7 +122,7 @@ $(function() {
 
 		// // click outisde offcanvas
 		// $(document).mouseup(function(e) {
-	 //    var container = $(".-site-mobile-menu");
+	 //    var container = $(".untree_co--site-mobile-menu");
 	 //    if (!container.is(e.target) && container.has(e.target).length === 0) {
 	 //      if ( $('body').hasClass('offcanvas') ) {
 		// 			$('body').removeClass('offcanvas');
@@ -156,7 +156,7 @@ $(function() {
 
 	  // click outisde offcanvas
 		$(document).mouseup(function(e) {
-	    var container = $(".-site-mobile-menu");
+	    var container = $(".untree_co--site-mobile-menu");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
 	      if ( $('body').hasClass('offcanvas') ) {
 					$('body').removeClass('offcanvas');
